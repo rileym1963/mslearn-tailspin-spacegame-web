@@ -1,6 +1,6 @@
 stages:
 
-- stage; 'Prepare'
+- stage: 'Prepare'
   displayName: 'Prepare'
   
   jobs:
