@@ -1,2 +1,10 @@
-pool:
-  vmImage: 'Ubuntu-16.04'
+stages:
+
+- stage; 'Prepare'
+  displayName: 'Prepare'
+  
+  jobs:
+
+  - job: 'Setup'  
+  pool:
+    vmImage: 'Ubuntu-16.04'
